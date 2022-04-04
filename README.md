@@ -41,7 +41,7 @@ Build an application that performs the following actions:
   
   * Launch cassandra by navigating to cassandra folder in the project and execute "docker-compose up" to setup the datastore.
   
-  * Launch the application by navigating into the project root directory and launch the application by executing "mvn spring-boot:run" command.
+  * Launch the application by navigating into the project root directory and execute "mvn spring-boot:run" command.
   	
 ##  Swagger2 documentation path
 http://localhost:8080/swagger-ui.html
