@@ -47,7 +47,7 @@ Build an application that performs the following actions:
 http://localhost:8080/swagger-ui.html
   
 
-### GET Endpoint
+### GET Endpoint - to get Product details
  *  Endpoint: http://localhost:8080/v1/products/13264003
  
  *  Sample Response body
@@ -62,7 +62,7 @@ http://localhost:8080/swagger-ui.html
         }
       
         
-### PUT - to update product price
+### PUT Endpoint - to update product price
  *  Endpoint: http://localhost:8080/v1/products/13264003
  
  *  Sample Request body
