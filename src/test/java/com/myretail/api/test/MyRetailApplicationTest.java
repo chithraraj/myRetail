@@ -1,5 +1,4 @@
-
-  package com.myretail.api.test;
+package com.myretail.api.test;
   
   import org.junit.jupiter.api.*;
   import org.junit.runner.RunWith;

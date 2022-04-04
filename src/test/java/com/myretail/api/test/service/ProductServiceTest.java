@@ -1,4 +1,3 @@
-
 package com.myretail.api.test.service;
 
 import static org.mockito.ArgumentMatchers.eq;
