@@ -21,7 +21,7 @@ import com.myretail.api.model.Product;
 import com.myretail.api.service.ProductService;
 
 @RestController
-@RequestMapping(value = "/products")
+@RequestMapping(value = "/v1/products")
 public class ProductController {
 
 	protected Logger logger = LoggerFactory.getLogger(this.getClass());
