@@ -20,12 +20,13 @@ Build an application that performs the following actions:
 *  Maven 3.8.5
 *  Spring Boot 2.2.4
 *  Rest Template
-*  Datastax Cassandra 4.0.3
+*  Cassandra 4.0.3
 *  Junit 5
 *  Mockito
 *  Postman
 *  Swagger
-*  Docker
+*  Docker 20.10.7
+*  Docker Compose 1.29.2
 
 
 ## Getting Started
@@ -34,13 +35,15 @@ Build an application that performs the following actions:
   
   * Install Maven  
   
+  * Install Docker and make sure docker service is up and running.
+  
   * Use git to clone the project.
   
   * Launch cassandra in docker
-   -  Navigate to cassandra folder in the project and execute "docker-compose up" to setup the datastore.
+   - Navigate to cassandra folder in the project and execute "docker-compose up" to setup the datastore.
   
   * Launch the application
-  	-  Navigate into the project root directory and launch the application by executing "mvn spring-boot:run" command.
+   - Navigate into the project root directory and launch the application by executing "mvn spring-boot:run" command.
   	
 ##  Swagger2 documentation path
 http://localhost:8080/swagger-ui.html
@@ -80,4 +83,9 @@ http://localhost:8080/swagger-ui.html
         	{
 		    	"message": "Product price has been updated for 13264003"
 		  	}
+    
+### Further Improvement
+
+ *  Enable OAuth based Security for the API endpoints.
+
     
