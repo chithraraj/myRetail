@@ -60,8 +60,7 @@ http://localhost:8080/swagger-ui.html
             "currency_code": "USD"
           }
         }
-        
-![Alt text](/images/GET_Response.jpg?raw=true "GET Response")        
+      
         
 ### PUT - to update product price
  *  Endpoint: http://localhost:8080/v1/products/13264003
@@ -83,7 +82,6 @@ http://localhost:8080/swagger-ui.html
 		    	"message": "Product price has been updated for 13264003"
 		  	}
 
-![Alt text](/images/PUT_Response.jpg?raw=true "PUT Response")  
     
 ### Further Improvement
 
